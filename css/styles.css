@@ -1,0 +1,51 @@
+body {
+	background-image: url('../assets/fondo-login.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+.login {
+    position: absolute;
+    left: 15%;
+    top: 11%;
+    text-align: center;        
+    background-color: rgba(255, 255, 255, 0.85);
+    width:70%;
+    height:600px;
+}
+.logo {
+	margin: 50px 10px;
+}
+.codigo {
+	width: 400px;
+	margin-top: 50px;
+}
+.codigo input {
+	height: 50px;
+	font-size: 18px;
+	background-color: rgba(255,255,255,0.11);
+	border: none;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.38);
+}
+.ayuda {
+	margin-top: 30px;
+}
+.ayuda a {
+	font-size: 1.7rem;
+}
+.login button {
+	margin-top: 40px;
+	color: #a4056a;
+	background-color: #e4df44;
+	border-color: #a4056a;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }

@@ -46,6 +46,8 @@ gameState.prototype = {
 	enterNumber: function(){
 		workingButtons=true;
 		if((higher && spriteNumber.frame<number)||(!higher && spriteNumber.frame>number)){
+
+			this.game.state.add("GameOver",overState);
 			this.game.state.start("GameOver",true,false,score);	
 		}
 		else{  
